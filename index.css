@@ -1,0 +1,131 @@
+body {
+    background-color: #222831;
+    color: aliceblue;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 20px 80px;
+} 
+nav a {
+    margin: 20px;
+    color: aliceblue;
+text-decoration: none;
+
+}
+.content {
+   display: flex;
+   justify-content: space-around;
+  height: 100vh;
+}
+.small-text {
+    font-size: 44px;
+    margin: 20px;
+    width: 300px;
+    font-weight: 800;
+    font-size: 64px;
+   
+    font-family: 'Roboto', sans-serif;
+}
+.content button {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 24px;
+    color:white ;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.blue-btn {
+    background-color: rgb(26, 225, 240);
+
+}
+.grey-btn {
+    background-color: bisque;
+}
+.pre-footer {
+    height: 100vh;
+    margin-left: 120px;
+}
+.pre-footer img {
+    margin-right: 40px;
+}
+.big-text {
+    font-size: 64px;
+    font-weight: 800
+    ;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.blue-text {
+color: aqua;
+}
+.grey-text {
+    width: 350px;
+    font-weight: 400;
+    color: bisque;
+}
+#white-text {
+    color: white;
+}
+.text {
+    width: 400px;
+    height: 135px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.content:nth-last-child(1 of .content) {
+    align-items: start;
+}
+.blue-button {
+    color: aliceblue;
+    background-color: #00ADB5;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.content:nth-last-child(1 of .content) img {
+    width: 250px;
+}
+#inner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 550px;
+}
+
+.button {
+    margin: 30px 0 px;
+}
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #393E4680;
+}
+.buttons button:first-child{
+    background-color: #00ADB5;
+}
+.buttons button:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.button2 {
+    padding: 48px 60px;
+    margin-left: 545px;
+    margin-top: 104px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    opacity: 100%;
+    width: 373px;
+    height: 47px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
