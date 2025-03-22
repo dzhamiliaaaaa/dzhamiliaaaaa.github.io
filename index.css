@@ -1,134 +1,90 @@
-body {
-    background-color: #222831;
-    color: aliceblue;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <nav>
+      <h3>CodifyDesign</h3>
+      <div class="page">
+        <a href="#">Home</a>
+        <a href="#">About me</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
 
+    <div class="content">
+      <div>
+        <h1 class="small-text">Creative Ui designer</h1>
 
-nav {
-    display: flex;
-    justify-content: space-between;   
-    align-items: center;
-    padding: 20px 80px;
-} 
-nav a {
-    margin: 20px;
-    color: aliceblue;
-text-decoration: none;
-
-}
-.content {
-   display: flex;
-   justify-content: space-around;
-  height: 100vh;
-}
-.small-text {
-    font-size: 44px;
-    margin: 20px;
-    width: 300px;
-    font-weight: 800;
-    font-size: 64px;
-   
-    font-family: 'Roboto', sans-serif;
-}
-.content button {
-    padding: 10px 20px;
-    margin: 20px;
-    font-size: 24px;
-    color:white ;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-
-}
-.blue-btn {
-    background-color: rgb(26, 225, 240);
-
-}
-.blue-btn:hover {
-    transition: transform 0.3s ease;
-    transform: scale(1.2);}
-.grey-btn {
-    background-color: bisque;
-}
-.pre-footer {
-    height: 100vh;
-    margin-left: 120px;
-}
-.pre-footer img {
-    margin-right: 40px;
-}
-.big-text {
-    font-size: 64px;
-    font-weight: 800
-    ;
-    font-family: 'Roboto', sans-serif;
-  
-}
-.blue-text {
-color: aqua;
-}
-.grey-text {
-    width: 350px;
-    font-weight: 400;
-    color: bisque;
-}
-#white-text {
-    color: white;
-}
-.text {
-    width: 400px;
-    height: 135px;
-    font-family: 'Poppins', sans-serif;
-    
-}
-.content:nth-last-child(1 of .content) {
-    align-items: start;
-}
-.blue-button {
-    color: aliceblue;
-    background-color: #00ADB5;
-    font-family: 'Poppins', sans-serif;
-    
-}
-.content:nth-last-child(1 of .content) img {
-    width: 250px;
-}
-#inner-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 550px;
-}
-
-.button {
-    margin: 30px 0 px;
-}
-.buttons button {
-    padding: 10px 20px;
-    margin-right: 20px;
-    font-size: 24px;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    background-color: #393E4680;
-}
-.buttons button:first-child{
-    background-color: #00ADB5;
-}
-.buttons button:hover {
-    opacity: 0.5;
-    transition: 0.5s;
-}
-.button2 {
-    padding: 48px 60px;
-    margin-left: 545px;
-    margin-top: 104px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    opacity: 100%;
-    width: 373px;
-    height: 47px;
-    border: none;
-    font-family: 'Poppins', sans-serif;
-}
+        <button class="blue-btn">hire me</button>
+        <button class="grey-btn">Download CV</button>
+      </div>
+      <img src="./images/INTRO (1).png" alt="intro" />
+    </div>
+    <div class="content">
+      <div>
+        <div class="big-text">About <span class="blue-text">Me</span></div>
+        <div class="grey-text">
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis....
+            <span id="white-text">Read more</span>
+          </p>
+        </div>
+      </div>
+      <img src="./images/Group 2373 (2).png" alt="About" />
+    </div>
+    <div class="content">
+      <div class="inner-content">
+        <div class="big-text">Got a projext in <span class="blue-text">mind?</span></div>
+        <img src="./images/step (1).png" alt="step" />
+      </div>
+      <div>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          vulputate libero et velit interdum, ac aliquet odio mattis. Class
+          aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+          lobortis....
+        </p>
+        <button class="blue-button">Send Message</button>
+      </div>
+      </div>
+    <div class="big-text">My recent <span class="blue-text">works</span>
+    </div>
+    <div class="buttons">
+      <button>A11</button>
+      <button>Ui</button>
+      <button>UX</button>
+      <button>Web Design</button>
+    </div>
+    <img src="./images/Frame 10 (1).png" alt="picture">
+    <img src="./images/Frame 11.png" alt="more">
+    <img src="./images/Frame 10.png" alt="smart">
+    <footer>
+      <div>
+        <div class="button2">
+          <button>Home</button>
+          <button>About Me</button>
+          <button>Contact</button>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">Terms of Service</a>-<a href="#">Private policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
