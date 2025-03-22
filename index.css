@@ -44,6 +44,9 @@ text-decoration: none;
     background-color: rgb(26, 225, 240);
 
 }
+.blue-btn:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);}
 .grey-btn {
     background-color: bisque;
 }
